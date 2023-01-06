@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link</title>
+    <link rel="shortcut icon" href="html.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Usando links</h1>
+
+    <h2>links externos</h2>
+    <p>Links externos são <em>links</em> que apontam para outro site, utilizando a tag &lt;a&gt; que significa "âncora", usando um parametro obrigatório <abbr title="referência a hiper-texto">"Href"</abbr> para botar a URL. <br>Exemplo: Acesse o  <a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_self"> materia de apoio em pdf</a></p>
+
+    <p>Sem o atributo "target", após clicar o link, vai começar uma nova navegação, sobrepondo o seu site. Por isso podemos usar o atributo "target" com os seguintes valores: </p>
+
+    <dl>
+        <dt>_blank</dt>
+        <dd>vai abrir o link em uma nova janela em blanco</dd>
+        <dt>_self</dt>
+        <dd>Vai abrir o link na janela ou frame atual (padrão)</dd>
+        <dt>_top</dt>
+        <dd>Vai desfazer todos os frames e abrir o destino no navegador completo</dd>
+        <dt>_parent</dt>
+        <dd> similar ao uso do _top em uma referência à janela mãe. nome-do-frame caso esteja usando frames, indicar o nome da janela a abrir</dd>
+    </dl>
+
+    <p>Exemplos</p>
+
+    <ul type="squere">
+        <li>Usando <strong>_blank</strong>: Acesse o <a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank">materia de apoio em pdf</a> </li>
+
+        <li>Usando <strong>_self</strong>: Acesse o <a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_self">materia de apoio em pdf</a> </li>
+
+        <li>Usando <strong>_top</strong>: Acesse o <a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_top">materia de apoio em pdf</a> </li>
+
+  
+        <li>Usando <strong>_parent</strong>: Acesse o <a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_parent">materia de apoio em pdf</a> </li>
+    </ul>
+
+    <p>Agora no HTML5 você pode usar o parametro <abbr title="relativo a">rel</abbr> para indicar o tipo de link.</p>
+
+    <img src="scrlk-650.png" alt="natureza do destino usando o atributo rel">
+    
+    <p>nofollow indica que é im link para um site endossado, como um link pago</p>
+
+    <h2>Links internos</h2>
+
+    <p>São links que referencia a outra página que está dentro do servidor, que diz respeito a sua própria página. <strong><em>Index</em></strong> é por onde o site é aberto. <br>Exemplo: <a href="pag02.html" rel="next">Segunda página</a> <br> <a href="outro_exemplo/pag03.html" rel="next">Terceira página </a>(só que em outra pasta) </p>
+
+    <p>Não existe um rel "internal", mas existe "next" indicando para a próxima página e "prev" indicando para a página anterior.
+    </p>
+
+    <h3>Nofollow</h3>
+
+    <p>Tem ocasiões em que você quer linkar para outro site, mas você não quer transferir nenhum relevância pra ele. Ou seja, sem indexação pelo Google. Exemplo: quando você quiser apontar algo como um mau exemplo na Internet.  Google recomenda usar para links patrocinados, para que o mecanismo de busca não perpetue esta busca. </p>
+
+    <p>Página para o <a href="pdf/pag04.html">donwload</a> do pdf do capítulo 10</p>
+
+
+    <p><br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore doloribus quia facere laboriosam ullam, debitis quaerat blanditiis necessitatibus dignissimos fugit eveniet voluptatum, voluptas, et enim. Doloremque mollitia esse corrupti necessitatibus?</p>
+
+</body>
+</html>

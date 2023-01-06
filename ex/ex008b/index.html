@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="html.ico" type="image/x-icon">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+
+    <h2>Código-fonte / Pré-formatação</h2>
+    <p>
+        O comando <code>document.getElementById('teste') </code> é escrito em linguagem javaScript. <br>A tag code ela transforma um texto em <em>mono-espaçada</em>, assim facilitando na lida do <strong>código</strong>.
+        <br>Outro exemplo: <br>
+        <pre>
+            <code>
+    num = int(input('Digite um número: '))
+    if num % 2 == 0:
+        print(f'O múmero {num} é par.')
+    else:
+        print(f'O número {num} não é par.')
+    print('Fim do programa')
+            </code>
+        </pre>
+        <br>
+
+        com a tag &lt;code&gt; e &lt;pre&gt; juntas podemos transformar um texto em formato de código. A tag &lt;pre&gt; considera <strong><em>tudo</em></strong> o que você digitou dentro dela.
+
+    </p>
+
+    <h2>Citações</h2>
+
+    <p>
+        Com a tag &lt;q&gt; podemos colocar aspas nas frases, principalmente com o sentido de citação. <br>Exemplo: Como diria o pai de um amigo: <q>O computador é um burro muito rápido</q>
+    </p>
+
+    <h2>Citações completas</h2>
+    <p>
+        Com a tag &lt;blockquote&gt; podemos utilizar citações em formato de bloco. <br> Exemplo utilizando lorem: 
+
+        <blockquote cite="https://pt.wikipedia.org/wiki/Lorem_ipsum">
+            
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam ducimus magni laboriosam sit suscipit amet error, voluptatum eveniet quam consectetur saepe delectus, atque provident? Sequi, laboriosam. Culpa ullam ipsum perferendis.</blockquote>
+        <br>
+
+        E com o parametro cite para dizer o que você está citando, não muda nada na página principal, mas isso ajuda nos mecanismos de busca e também deixa o seu código HTML mais organizado, a parte interna do seu site vai saber o que você está citando, mantem os direitos daqueles que produzem conteúdo.
+    </p>
+
+    <h2>Abreviação</h2>
+    <p>
+        Com a tag &lt;abbr&gt; você pode dizer o que uma certa abreviação ou sigla significa. <br> Exemplo: Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> agora.
+    </p>
+
+</body>
+</html>

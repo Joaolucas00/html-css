@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'Celta';
+            src: url('CELTG___.TTF') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: c;
+            src: url('Cardinal.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Evanescent';
+            src: url('evanescent.ttf') format('truetype');
+        }
+
+        h1 {
+            font-family: 'Celta';
+            font-size: 3.5em;
+            font-weight: 700;
+            text-align: center;
+            
+        }
+
+        p {
+            font-size: 2em;
+            font-weight: 300;
+            font-family: 'Cardinal';
+            text-align: center;
+        }
+
+        h2{
+            font-size: 2.5em;
+            font-family: 'Evanescent';
+            text-align: center;
+        }
+
+        pre {
+            font-size: 1.4em;
+            font-weight: 200;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Fontes externas</h1>
+
+    <p>As vezes a fonte que você procura não vai estar no google fonte, então vai ter que procurar em outro lugar. Você pode acessar o site <a href="https://www.dafont.com/pt/" rel="external" target="_blank">DaFont</a> para adquirir outros tipos de fontes.</p>
+
+    <h2>OTF+e |TTF</h2>
+    <p>Para adicionar um arquivo fonte TTF ou OTF, utilize
+        <pre><code>
+    @font-face {
+        font-family: ;
+        src: url('CELTG___.TTF') format('opentype');
+    }
+    </pre></code>
+</p>
+
+<a href="index.html" rel="prev" target="_self">Página principal</a> <br>
+<a href="pag03.html">Sobre Alinhamento</a>
+
+
+<p>    Para tipos de format temos opentype(otf), truetype(ttf), embedded-opentype, truetype-aat (Apple Advanced Typography) e svg. No font family você vai nomear o nome da fonte para utilizar no CSS. Cada navegador vai ter ou não compatibilidade com esses tipos de arquivo, então é recomendável que utilize os dois arquivos juntos, geralmente funciona em todos os navegadores.
+
+</p>
+
+    <h1 style="font-family: 'Evanescent';">Lorem</h1>
+    <p style="font-family: Evanescent;">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi debitis nemo laborum exercitationem alias id rem, vitae ullam, inventore, perspiciatis architecto optio eum distinctio. Laudantium asperiores in quas, temporibus dolore recusandae? At, nesciunt? Nulla eius illum obcaecati! Esse necessitatibus non quasi illo, ex deleniti distinctio aperiam suscipit, exercitationem unde nam adipisci ullam, maiores hic dignissimos? Itaque quasi earum numquam deleniti, tempora nemo reprehenderit nesciunt minus error autem suscipit sunt ut repellat, id odit dicta! Consequatur cumque unde inventore eius ea consectetur expedita, quisquam animi tempore. Cum suscipit vero earum, nobis, eveniet modi ad voluptatibus quam dolorum ab rerum autem accusantium?
+    </p>
+
+    <p style="font-family: Celta;">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel consectetur architecto sapiente autem dolore inventore voluptatum accusantium consequatur animi error. Eaque tenetur nemo consequuntur unde, rerum ipsa eum ut quibusdam nam, doloribus quaerat odio corporis. Nobis ex sunt aspernatur, rerum, id molestiae ipsa consectetur sequi amet repellat facilis recusandae aut illo suscipit laboriosam aperiam fuga? Amet quae reprehenderit error sit, quia numquam atque rerum esse, vitae omnis, obcaecati possimus velit saepe. Officiis nemo consectetur porro architecto tempora odit cumque consequuntur cupiditate tenetur explicabo! Veritatis earum, molestias accusantium repellat fugit asperiores iusto officia dolorum, quo ex consequuntur culpa libero? Provident, ratione.
+
+    </p>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+    <link rel="shortcut icon" href="imagens/html.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagens dinámicas</h1>
+
+    <h2>tag picture</h2>
+    
+    <p>
+        Com a tag picture, podemos tratar imagens, como por exemplo, se for um celular que está acessando seu site, ele muda a imagem de 1000px para 300px, ou se for um tablet para 600px, isso tudo apenas utilizando o tag source dentro de picture.
+    </p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    
+    <p>
+        A ordem da tag source dentro de picture deve ser seguida, se não, não funciona. A ordem é de cima do picture para baixo e a img na ultíma linha, as mais pequenas sempre vem em cima das mais grandes. 
+    </p>
+
+    <p>
+        <a href="pag02.html" target="_self" rel="next">Sobre áudio.</a>
+        <br>
+        <a href="pag03.html">Sobre vídeos</a> <br>
+        <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/11%20-%20Imagens%20din%C3%A2micas%2C%20%C3%A1udios%20e%20v%C3%ADdeos.pdf" target="_blank" rel="external">Material em pdf do capítulo 11</a>
+    </p>
+
+
+
+</body>
+</html>

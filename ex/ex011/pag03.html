@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+    <link rel="shortcut icon" href="imagens/html.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Inserindo Vídeos</h1>
+
+    <p>
+        Podemos inserir vídeos hospedados no nosso próprio servidor ou no YouTube, Vimeo e etc. 
+    </p>
+
+    <h2>Compatibilidade</h2>
+    <p>
+        Alguns formatos são diferentes dos outros, e portanto, alguns navegadores não conseguem reproduzir o vídeo. Por isso, é bom nós termos vários formatos diferentes do mesmo vídeo. <br> Veja a tabela abaixo.
+    </p>
+
+    <img src="imagens/tabela-370.png" alt="tabela de compatibilidade de formatos para navegadores">
+
+    <h2>Inserindo Vídeos Hospedados Localmente</h2>
+    <h3>Tag video</h3>
+    <p>
+        Podemos inserir vídeos hoespedados localmente com a tag video com o mesmo esquema que os outros. A tag video tem como parametro o width (indica a largura do vídeo), poster(capa do vídeo), controls(configura os controles do vídeo), loop(indica se o vídeos vai estar em um looping ifinito) e autoplay(indica se o vídeo vai iniciar logo após a página ser carregada) <br>Exemplo:  
+    </p>
+    
+    <video controls width="500" poster="imagens/teste-full.png" loop>
+        <source src="midia/video.m4v" type="video/mp4">
+        <source src="midia/video.webm" type="video/webm">
+        <source src="midia/video.mkv" type="video/mkv">
+        <p>
+            Seu navegador não tem compatibilidade com reprodução de vídeos.
+        </p>
+    </video>
+
+    <p>
+        Não é recomendado usar a tag video, pois cada vídeo, cada formato pesa no muito no site. Por isso, é melhor inserir vídeos hospedados no YouTube, Vimeo, etc.<br>
+        Veja a seguir no próximo tópico.
+    </p>
+
+    <h2>Inserindo Vídeos Hospedados no YouTube.</h2>
+
+    <p>
+        É muito melhor inserir vídeos hospedados no YouTube, Vimeo, já que o vídeo não está hospedado no próprio servidor do site, pesa muito menos. <br> Existem algumas vantagens de inserir vídeos no YouTube ou Vimeo. Veja resumidamente na imagem abaixo.
+    </p>
+
+    <img src="imagens/img-youtubeviemo.png" alt="imagem explicativa de umas das vantegens de ter o YouTube ou Vimeo hospedando um vídeo seu" width="700">
+
+    <h3>Tag iframe</h3>
+    <p>
+        Para colocar vídeos que estão no YouTube no seu site, basta ir em "compartilhar" e clicar em "incorporar", só copiar a tag iframe e colocar no código HTML. <br> Exemplo: 
+    </p>
+
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+    <h2>Inserindo Vídeos Hospedados no Vimeo</h2>
+    <p>
+        O Vimeo permite outras configurações além do que o YouTube permite. Os vídeos tem qualidade melhor, mas pode travar depedendo da internet. Tem como agir mais profissionalmente com o Vimeo, como privando o acesso ao vídeo a pessoas específicas (por exemplo uma escola online em que só os estudante matriculados podem ver o vídeo). <br> Exemplo:
+    </p>
+    
+
+    <iframe src="https://player.vimeo.com/video/69454263?h=535d30b7c2&loop=1&color=ff0179&portrait=0" width="500" height="281" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/69454263">REAL-TIME COMMS ANIMATION</a> from <a href="https://vimeo.com/brianthomasdesigner">brian thomas.design</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+
+    <p>
+        <a href="index.html">Sobre imagem</a> <br>
+        <a href="pag02.html">Sobre áudio</a>
+    </p>
+
+</body>
+</html>

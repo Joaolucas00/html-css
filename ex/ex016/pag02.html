@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-level</title>
+    <style>
+        h1#lorem {
+            background-color: brown;
+            height: 300px;
+            width: 300px;
+
+            /*
+                Simplificando com shorthand.
+                border: border-width border-style border-color;
+            */
+
+            border-width: 5px;
+            border-style: solid;
+            border-color: blueviolet;
+
+            /*
+                Simplificando com shorthand: 
+                padding: padding-top padding-right padding-bottom padding-left
+                Se for todos iguais você pode botar:
+                padding: 10px;
+                Se for dois diferentes, ele vai botar primeiro o de cima e o debaixo, o segundo termo vai ser a direita e a esquerda da caixa
+                padding: 10px 20px
+            
+            */
+
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-bottom: 10px;
+            padding-right: 10px;
+
+            /*
+                Simplificando com shorthand:
+                margin: top right bottom left
+                Você também pode fazer:
+                margin: 20px auto 40px auto
+                Assim ele vai centralazir 
+
+            */
+
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            
+            /*
+                Simplificando com shorthand:
+                outline: outline-width outline-style outline-color
+            
+            */
+
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: rgb(149, 230, 0);
+
+        }
+
+        p#loremp{
+            border-style: double;
+            border-color: coral;
+            border-width: 10px;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Modificando tags box-level</h1>
+    <p>Vamos ver alguns atributos para tags box level. Border width é a largura da borda, border color é a cor da borda, border style é o estilo da border. Assim como nos outros podemos modificar cada lado e atributo das caixas, pode utilizar o shorthand para isso, mas senão, coloque os atributos de modificação da caixa em sentido horário. Também tem como transformar uma tag box-level em uma tag inline-level com o atributo display, display inline ou display block, também tem o inline-block que é um inline com algumas características de box-level como altura e largura.</p>
+
+    <h1 id="lorem">Lorem</h1>
+
+    <p id="loremp">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore sequi odio facilis laudantium, eveniet, veniam nam, a esse voluptatibus quam voluptate? Autem dolorum magni accusantium ducimus enim, dicta quis similique.</p>
+    <a href="pag03.html">Grouping tags</a>
+
+</body>
+</html>

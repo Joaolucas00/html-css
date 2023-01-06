@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+body {
+    background-color: antiquewhite;
+    font-size: 1.5em;
+    font-weight: 400;
+    font-family: 'Merriweather', 'Times New Roman', Times, serif;
+}
+
+div {
+    display: inline-block;
+    background-color: azure;
+    text-align: center;
+    height: 970px;
+    width: 600px;
+    border: 2px solid black;
+}
+
+
+
+div:hover {
+    background-color: rgb(200, 219, 219);
+}
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+a:visited {
+    color: darkred;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+div#pseu {
+    height: 600px;
+}
+
+a > div#pseu:hover {
+    background-color: rgba(165, 42, 42, 0.411);
+    text-decoration: underline;
+}
+
+/*
+div#sobrediv {
+    display: inline-block;
+    background-color: azure;
+    text-align: center;
+    height: 600px;
+    width: 600px;
+    border: 2px solid black;
+}
+*/
+/*
+#sobrepseudoclasses {
+    display: inline-block;
+    background-color: azure;
+    text-align: center;
+    height: 600px;
+    width: 600px;
+    border: 2px solid black;
+}
+*/
+

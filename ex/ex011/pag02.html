@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Áudio</title>
+    <link rel="shortcut icon" href="imagens/html.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Reproduzindo Áudio</h1>
+
+    <h2>tag audio</h2>
+
+    <p>
+        A tag "audio" nos permite colocar áudio nos nossos site. Existem alguns parametros necessarios para reproduzir um áudio. Como por exemplo:
+    </p>
+
+    <dl>
+        <dt>preload</dt>
+        <dd>indica se o áudio será pré-carregado ou não e aceita três valores.
+            <ul type="square">
+                <li>metadata</li>
+                <dd>vai carregar apenas as informações sobre o arquivo (tamanho, tempo, informações de direitos, etc).</dd>
+                <li>none</li>
+                <dd>não vai carregar nada, a não ser que o usuário aperte o play ou umm script inicie a reprodução.</dd>
+                <li>auto</li>
+                <dd>(<em>padrão</em>) vai carregar o arquivo de áudio inteiro assim que a página for carregada, mesmo que o usuário nunca aperte o play.</dd>
+            </ul>
+        </dd>
+
+        <dt>controls</dt>
+        <dd>vai apresentar o player na tela. Caso não seja adicionado dentro da tag audio, o cotrole será <em>transparente </em> e o usuário não poderá interagir.</dd>
+
+        <dt>autoplay</dt>
+        <dd>vai iniciar a reprodução do áudio assim que a página for carregada. <ins>(o autoplay não tá funcionando na maioria dos navegadores, já que quem decide quem vai apertar o play é o próprio usuário.)</ins></dd>
+        
+        <dt>loop</dt>
+        <dd>faz com que o áudio seja reproduzido enternamente após o fim da reprodução.</dd>
+
+    </dl>
+
+    <h2>formatacão</h2>
+    <p>Para formartar, utilize source <ins>(com parametro src para áudio)</ins>, com o mesmo esquema da imagem. Alguns navegadores não são compatíveis com o formato mp3, wav, ogg e etc.  
+    </p>
+
+    <h2>Executando alguns áudios </h2>
+
+    <p>Tente evitar arquivos wav, eles pesam demais. É melhor arquivo mp3.</p>
+
+    <audio src="midia/happy-mistake.mp3" controls autoplay preload="metadata" loop></audio> <br>
+
+    <audio controls preload="metadata">
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+        <p>
+            O seu navegador não consegue reproduzir o áudio. <a href="midia/guanacast-33.mp3" download="guanacast-33" type="audio/mpeg">clique aqui para baixar o arquivo mp3</a>
+        </p>
+    </audio>
+
+    <h2>Onde adquirir áudio facilmente</h2>
+    <p>
+        Você pode adquirir áudio sem copyright, basta ir em "You Tube Studio" e ir em "Biblioteca de Áudio". <br>
+    </p>
+
+    <p>
+        <a href="index.html">Sobre imagem</a> <br>
+        <a href="pag03.html">Sobre vídeos</a>
+    </p>
+
+</body>
+</html>

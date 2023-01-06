@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hover</title>
+    <style>
+        body {
+            font-size: 1.5em;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div > p { /* significa, um parágrafo que está dentro da div, assim podendo só configurar o parágrafo que está dentro da div. */ 
+            display: none;
+        }
+
+        div:hover > p { /* significa, um parágrafo que está dentro da div ao passar o mause, assim podendo configurar o parágrafo após passar o mouse  */
+
+            display: block;
+            color: white;
+            background-color: red;
+            width: 300px;
+
+        }
+
+        div:hover {
+            color: rgb(187, 0, 0);
+        } 
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mause sobre o texto abaixo</p>
+    <div>
+        Passe o mouse aqui!
+        <p>
+            Texto escondido...
+        </p>
+    </div>
+
+    <p>Clica aqui</p>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipografia</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <h1>Fontes em CSS</h1>
+    <p>Podemos alterar a fonte da palavra com font-family no CSS. É bom colocar mais de uma fonte no font-family porque alguns dispositivos não são compatíveis com certas fontes. Para saber quais fontes são seguras acesse <a href="https://www.w3schools.com/cssref/css_websafe_fonts.php" target="_blank">esse site.</a>, sempre termina a sua safe font com sans-serif(ou outro, ex: monospace) porque todos os dispositivos vão interpretar e vão usar alguma fonte generica sem serifa.</p>
+
+   
+
+    <h1>Tamanho da fonte</h1>
+
+    <p>Há várias medidas que podemos usar para o tamanho da fonte, como cm(centímetros), in(polegadas), pt(pontos), pc(paicas), px(pixels), etc. A <strong>W3C</strong> recomenda o uso do px ou do em. Também temos medidas absolutas e medidas relativas. 16px é o tamanho normal da fonte que também é igual a 1em.</p>
+
+    <ul>
+        <li>Meidadas Absolutas</li>
+        <ol>
+            <li>cm(centímetro)</li>
+            <li>mm(milímetro)</li>
+            <li>in(polegadas)</li>
+            <li>pt(pontos)</li>
+            <li>px(pixels)</li>
+            <li>pc(paicas)</li>
+        </ol>
+        <li>Medidas Relativas</li>
+        <ol>
+            <li>em(relativo ao tamanho original da fonte, geralmente é igual a 16px)</li>
+            <li>ex(relativo ao x minúsculo)</li>
+            <li>rem(relativo a configuração da fonte no body)</li>
+            <li>vw(relativo ao viewport, tamanho de tela especialmente largura)</li>
+            <li>vh(relativo a altura da viewport)</li>
+            <li>%</li>
+        </ol>
+
+    </ul>
+
+    <p>É importante usar o em porque ele é relativo ao tamanho da fonte já que algumas telas tem tamanhos difertentes.</p>
+
+    <h1>Peso da fonte</h1>
+    <p>
+        Cuidado para não <strong>confundir!</strong> As palavras "weight", "width" e "height" são parecidas, mas tem significados diferentes. weight é peso, width é largura e height é altura. Utilizando o font-weight podemos alterar o peso da fonte, tem como padrão os parâmetros lighter, normal, bold e bolder ou você pode usar um parâmetro númerico que vai de 100 a 900.
+    </p>
+
+    <p>
+        Com font-style podemos alterar o estilo da fonte, para ítalico por exemplo. Se quiser um texto sublinhado use text-decoration. Algumas fonte não tem essas configurações então tome cuidado.
+    </p>
+
+    <h1>shorthand font</h1>
+    <p>Para não ficar colocando todas essas configurações em cada linha use "font:" e adiciona nessa ordem: <br>
+    font-style -> font-weight -> font-size -> font-family
+    </p>
+
+    <h1>Onde adquirir fontes?</h1>
+    <p>
+        Você pode usar o <a href="https://fonts.google.com/?preview.size=41&query=work&noto.script=Thai" rel="external" target="_blank">google fontes</a> para adquirir novas fonte para o seu site.
+    </p>
+
+    <a href="pag02.html" rel="next" target="_self">Mais sobre fonte.</a> <br>
+    <a href="pag03.html">Sobre Alinhamento</a>
+
+</body>
+</html>

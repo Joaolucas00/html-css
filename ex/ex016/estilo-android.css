@@ -1,0 +1,213 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+@font-face {
+    font-family: 'Android';
+    src: url(pacote-projeto/fontes/idroid.otf) format('opentype');
+}
+
+body {
+    background-image: linear-gradient(to right,  #6bfdc0,  #69c9a1);
+}
+
+h1 {
+    font-family: 'Android', Arial, Helvetica, sans-serif;
+    font-size: 2.2em;
+    color: #006e32;
+    font-weight: bolder;
+
+    padding: 10px 10px 5px 5px;
+    margin: 10px 10px 15px 10px;
+}
+
+h2 {
+    font-family: 'Android', Arial, Helvetica, sans-serif;
+    font-size: 1.7em;
+    color: #005C34;
+    background-image: linear-gradient(to left, white, #44e19d80);
+    border-radius: 8.5px;
+
+    padding: 10px 10px 5px 5px;
+    margin: 10px 10px 15px 10px;
+}
+
+h1#principal {
+    color: white;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 4px 3px 10px rgba(0, 0, 0, 0.301);
+    
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+p#cabeçalho {
+    font-family: 'Roboto Slab', 'Times New Roman', Times, serif;
+    color: white;
+    
+    font-size: 1.2em;
+    text-align: center;
+
+    font-weight: 170;
+
+    padding: 10px;
+    margin: 10px;
+
+
+}
+
+p {
+    font-size: 1.15em;
+    font-family: 'Roboto Slab', 'Times New Roman', Times, serif;
+    font-weight: 399.9;
+    text-align: justify;
+    text-indent: 1.7em;
+
+    padding: 10px;
+    margin: 10px;
+}
+
+header {
+    background-image: linear-gradient(to top, #125C3C, #55F5B0);
+
+    padding: 10px 10px 9px 11px;
+    margin: 10px auto 0px auto;
+
+    box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.342);
+}
+
+nav > a {
+    color: #03ff9e;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-style: normal;
+
+
+    text-decoration: none;
+    text-align: start;
+
+    padding: 2px 10px 7px 8px;
+    margin: 10px -21px 8px 15px;
+    
+    /*
+    border: 2px solid black;
+    */  
+}
+
+nav > a:hover {
+    background-color: #8ef7cfab;
+    color: #2b5242;
+    border-radius: 5px;
+    
+}
+
+
+main {
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 100px 15px 100px;
+    width: auto;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.479)
+}
+
+
+a.externo {
+    background-image: linear-gradient(to left, #86ffc68a,#00cf6e85);
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-style: normal;
+
+    color: #125C3C;
+    padding-left: 1.5px;
+    padding-right: 1.5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 4px 4px;
+}
+
+a.externo:hover {
+    color: #125c3cc7;
+    text-decoration: underline;
+
+}
+
+img {
+    margin: 10px 150px 10px 150px;
+}
+
+#destaque {
+    color: #005C34;
+    font-weight: 540;
+}
+
+a#lextra {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    color: #125C3C;
+}
+a#lextra:hover {
+    color: #125c3cc7;
+    text-decoration: underline;
+}
+
+aside {
+    background-color: #014224;
+    padding: 10px 15px 10px 15px;
+    margin: 10px -10px 10px -10px
+}
+
+
+
+aside > iframe {
+    width: 1100px;
+    height: 550px;
+    padding: 10px;
+    margin: 10px;
+}
+
+aside#extra {
+    background-color: #baf7e1;
+    padding: 0px 25px 10px 25px;
+    margin: 10px 25px 10px 25px;
+    border-radius: 10px;
+}
+
+p#textra {
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    background-color: #0a4228;
+    padding: 10px 10px 10px 10px;
+    margin: 10px -25px 10px -25px;
+}
+
+
+footer {
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    background-color: #0a4228;
+}
+
+footer > p {
+    color: white;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.35;
+}
+
+ul {
+    font-style: normal;
+    text-decoration: none;
+}
+
+ul > li {
+    padding: 5px;
+    margin: 2px;
+    font-family: 'Roboto Slab', 'Times New Roman', Times, serif;
+    font-weight: 390;
+    font-style: normal;
+}
+
