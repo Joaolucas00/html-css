@@ -10,15 +10,24 @@
 }
 
 :root {
-    --tema1: url(imagens/pattern001.png);
-    --tema2: url(imagens/pattern002.png);
-    --wallpaper-aviao: url(imagens/wallpaper002.jpg);
+    --tema1: url('imagens/pattern001.png');
+    --tema2: url('imagens/pattern002.png');
+    --tema3: url('imagens/pattern003.png');
+    --wallpaper-aviao: url('imagens/wallpaper002.jpg');
+    --wallpaper-aviao-position: url('imagens/wallpaper003.jpg');
+    --wallpaper04: url('imagens/wallpaper004.jpg');
+    --wallpaper05: url('imagens/wallpaper005.jpg');
+    --wallpaper06: url('imagens/wallpaper006.jpg');
 }
 
 body {
     font-size: 1.25em;
     font-weight: 390;
-    background-image: url(imagens/wallpaper001.jpg);
+    background-image: var(--wallpaper06);
+    background-repeat: repeat-y;
+    background-position: center center;
+
+
 }
 
 header {
@@ -133,11 +142,22 @@ div.quadrado {
 img {
     display: block;
     margin: auto;
-    padding: 20.5px;
+    padding: 10px;
     
     min-width: 360px;
-    max-width: 990px;
+    max-width: 800px;
+
+    min-height: 360px;
+    max-height: 600px;
 }
+
+
+img#bgr {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
 
 em {
     font-style: italic;
@@ -154,4 +174,57 @@ div#q2 {
 
 div#q3 {
     background-image: var(--wallpaper-aviao);
+}
+
+div.bloco {
+    background-image: var(--wallpaper-aviao-position);
+
+    border: 1px solid black;
+    border-radius: 5px;
+
+    margin: auto;
+    padding: 10px;
+
+    min-width: 360px;
+    max-width: 1000px;
+
+    height: 360px;
+}
+
+div#b1 {
+    background-position: left center;
+}
+
+div#b2 {
+    background-position: left bottom;
+}
+
+div#b3 {
+    background-position: right top;
+}
+
+div#b4 {
+    background-position: right center;
+}
+
+div#b5 {
+    background-position: center center;
+}
+
+div.conteiner {
+    border: 1px solid black;
+    border-radius: 10px;
+
+    background-image: var(--tema3);
+    min-width: 360px;
+    max-width: 800px;
+
+    height: 400px;
+    margin: auto;
+    padding: 10px;
+}
+
+div#c1 {
+    background-repeat: no-repeat;
+    background-position: center center;
 }

@@ -37,9 +37,56 @@
             Como vimos anteriormente, as imagens pequenas que não ocupam toda a caixa se repete em ambos os eixos x e y, podemos alterar isso. Alguns valores são: background-repeat: repeat (padrão), background-repeat: no-repeat (não significa que não se repete, repete apenas uma vez, não obriga ao navegador a aumentar o tamanho da imagem para caber na caixa), background-repeat: repeat-x (repete apenas no eixo x), background-repeat: repeat-y (repete apenas no eixo y).
         </p>
 
-        <img src="imagens/background-repeat.png" alt="Exemplos de background-repeat">
+        <img src="imagens/background-repeat.png" alt="Exemplos de background-repeat" id="bgr">
 
-        <p>Como podemos observar, o ponto de partida ou <em>ponto de refêrencia</em> é sempre no canto superior esquerdo, podemos mudar isso também.</p>
+        <p>Como podemos observar, o ponto de partida ou <em>ponto de refêrencia</em> é sempre no canto superior esquerdo, podemos mudar isso também com Baclground-position.</p>
+
+        <h2>background-position</h2>
+        <p>
+            Com baclground-position podemos alterar o ponto de partida do início da repetição. Temos como valores: left top (padrão), center top, right top, left center, center center, right center, left bottom, center bottm e right bottom.   
+        </p>
+
+        <img src="imagens/background-position.png" alt="Valorem do background-position">
+
+        <p>
+            Bem, é quase como se fosse uma matriz.
+        </p>
+
+        <p>Exemplos:</p>
+
+
+        <p>
+            background-position: left center;
+        </p>
+        <div class="bloco" id="b1"></div>
+        <p>
+            background-position: left bottom;
+        </p>
+        <div class="bloco" id="b2"></div>
+        <p>
+            background-position: right top;
+        </p>
+        <div class="bloco" id="b3"></div>
+        <p>
+            background-position: right center;
+        </p>
+        <div class="bloco" id="b4"></div>
+        <p>
+            background-position: center center;
+        </p>
+        <div class="bloco" id="b5"></div>
+
+        <h2>Mesclando background-repeat e background-position</h2>
+        
+        <div class='conteiner'></div>
+        <p>
+            Aqui está uma imagem, que podemos ver que a imagem é mais pequena do que a caixa, parece até uma ilusão de ótica.
+        </p>
+        <p>
+            Se colocarmos background-repeat: no-repeat e baclground-position: center center, podemos centralizar uma imagem só.
+        </p>
+        <div class="conteiner" id="c1"></div>
+
 
     </main>
 
