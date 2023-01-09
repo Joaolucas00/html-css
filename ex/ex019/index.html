@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <h1>Imagens de fundo</h1>
+        <h1>Imagens de Fundo</h1>
         <nav>
             <a href="#">Link</a>
             <a href="#">Link</a>
@@ -26,11 +26,21 @@
     <h2>Background-image</h2>
 
     <p>
-        Podemos colocar imagens de fundo com background-image, possui varías prorpiedades, como por exemplo, linear-gradient que cria um gradiente, mas para adicionar imagens basta colocar "url()" e colocar o local do arquivo. Isso não faz parte do conteúdo(HTML) do seu site, é meramente estilo(CSS).
+        Podemos colocar imagens de fundo com background-image, possui varías prorpiedades, como por exemplo, linear-gradient que cria um gradiente, mas para adicionar imagens basta colocar "url()" e colocar o local do arquivo, ou até mesmo imagens externas de outro site, basta colocar a url. É bom salientar que isso não faz parte do conteúdo (HTML) do seu site, é meramente estilo (CSS).
     </p>
 
     <p>
-        Podemos observar no quadrado 1 e quadrado 2 uma divisão na imagem, isso porque a imagem é muita pequena, já se for grande, a imagem não aparece totalmente (quadrado 3).</p>
+        Podemos observar no quadrado 1 e quadrado 2 uma divisão na imagem, isso porque a imagem é muita pequena, isto é, o tamanho da caixa é maior do que a imagem, por padrão a imagem será repetida para cobrir o tamanho da caixa contêiner. Se a imagem for grande, a imagem não aparece totalmente (quadrado 3), isto é, a imagem é maior do que a caixa contêiner, e por sua vez, não será repetida. Podemos configurar isso com background-repeat, mas veremos isso no próximo tópico.</p>
+
+        <h2>Baclground-repeat</h2>
+        <p>
+            Como vimos anteriormente, as imagens pequenas que não ocupam toda a caixa se repete em ambos os eixos x e y, podemos alterar isso. Alguns valores são: background-repeat: repeat (padrão), background-repeat: no-repeat (não significa que não se repete, repete apenas uma vez, não obriga ao navegador a aumentar o tamanho da imagem para caber na caixa), background-repeat: repeat-x (repete apenas no eixo x), background-repeat: repeat-y (repete apenas no eixo y).
+        </p>
+
+        <img src="imagens/background-repeat.png" alt="Exemplos de background-repeat">
+
+        <p>Como podemos observar, o ponto de partida ou <em>ponto de refêrencia</em> é sempre no canto superior esquerdo, podemos mudar isso também.</p>
+
     </main>
 
 </body>

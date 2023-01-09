@@ -130,6 +130,20 @@ div.quadrado {
     margin: 10px;
 }
 
+img {
+    display: block;
+    margin: auto;
+    padding: 20.5px;
+    
+    min-width: 360px;
+    max-width: 990px;
+}
+
+em {
+    font-style: italic;
+    text-decoration: none;
+}
+
 div#q1 {
     background-image: var(--tema1);
 }
