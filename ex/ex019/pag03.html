@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralização vertical de caixas</title>
+    <link rel="stylesheet" href="estilo-ex019.css">
+</head>
+<body>
+    <header>
+        <h1>Centralização Vertical de Caixas</h1>
+        <nav>
+            <a href="index.html">Imagens de fundo</a>
+            <a href="pag02.html">Tamanho da imagem de fundo</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Teste de centralização vertical</h1>
+        <h2>Position</h2>
+        <p>
+            Com a propriedade position podemos ajustar precisamente onde a caixa vai estar. Possui valores absolute e relative(padrão), com o absolute podemos configurar a posição da caixa com os atributos left e top.
+        </p>
+        <p>
+            A regra é simples, a caixa externa fica com o valor relative, enquanto a caixa interna fica com o valor absolute.
+        </p> 
+
+        <p>
+            Left é a distância esquerda da caixa interna até a caixa externa, e top é a distância do topo da caixa interna até a caixa externa.
+            Nesta caixa abaixo, eu utilizei um left de 300px e top de 140px.
+        </p>
+        <div class="caixa" id="ca1">
+            <div class="dentro" id="d1"></div>
+        </div>
+        <p>
+            Aqui, um left de 200px e top de 100px.
+        </p>
+        <div class="caixa" id="ca2">
+            <div class="dentro" id="d2"></div>
+        </div>
+        <p>
+            Use o DevTools para configurar o left e top para vê-lo em tempo real.
+        </p>
+        <p>left: 510px; top: 10px</p>
+        <div class="caixa" id="ca3">
+            <div class="dentro" id="d3">
+            </div>
+        </div>
+        <p>
+            left: 50%;top: 50%;
+        </p>
+        <div class="caixa" id="ca4">
+            <div class="dentro" id="d4"></div>
+        </div>
+
+        <p>
+            Com a propriedade transform podemos aplicar alterações de transformação em nossas caixas, como por exemplo, rotacionar, aumentar e diminuir com scale(), etc. O que a gente vai ver é o traslate()(translação), aceitando dois valores, primeiro move para a esquerda e direita depedendo do sinal do número, se for positivo move na direita se negativo para a esquerda, o segundo move para o topo se - move para cima se + para baixo
+        </p>
+
+        <p>
+            top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+        </p>
+        <div class="caixa" id="ca5">
+            <div class="dentro" id="d5"></div>
+        </div>
+    </main>
+</body>
+</html>

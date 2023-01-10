@@ -13,6 +13,7 @@
     --tema1: url('imagens/pattern001.png');
     --tema2: url('imagens/pattern002.png');
     --tema3: url('imagens/pattern003.png');
+    --target: url('imagens/target001.png');
     --wallpaper-aviao: url('imagens/wallpaper002.jpg');
     --wallpaper-aviao-position: url('imagens/wallpaper003.jpg');
     --wallpaper04: url('imagens/wallpaper004.jpg');
@@ -278,27 +279,89 @@ div#c1 {
 }
 
 div.caixa {
-    border: 1px solid black;
-    border-radius: 10px;
+    border: 0.1px solid rgb(0, 0, 0);
+    border-radius: 1.5px;
 
-    background-image: var(--wallpaper-aviao);
+    background-color: #89a526;
+    background-image: var(--target);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
 
-    min-width: 340px;
-    max-width: 990px;
-    height: 400px;
+    width: 800px;
+    height: 340px;
 
-    margin: auto;
-    padding: 20px;
+    padding: 10px;
 }
 
 div#ca1 {
+    position: relative;
 
 }
 
 div#ca2 {
-
+    position: relative;
 }
 
 div#ca3 {
+    position: relative;
+}
 
+div#ca4 {
+    position: relative;
+}
+
+div#ca5 {
+    position: relative;
+}
+
+
+div.dentro {
+    background-image: var(--target);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    width: 280px;
+    height: 190px;
+    background-color: #d4f362b4;
+    padding: 10px;
+}
+
+div#d1 {
+    position: absolute;
+    left: 300px;
+
+    top: 140px;
+}
+
+div#d2 {
+    position: absolute;
+
+    left: 200px;
+    top: 100px;
+}
+
+div#d3 {
+    position: absolute;
+    
+    left: 510px;
+    top: 10px;
+    
+}
+
+div#d4 {
+    position: absolute;
+    height: 140px;
+    left: 50%;
+    top: 50%;
+}
+
+div#d5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
 }
