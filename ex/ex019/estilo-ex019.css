@@ -23,11 +23,27 @@
 body {
     font-size: 1.25em;
     font-weight: 390;
-    background-image: var(--wallpaper06);
-    background-repeat: repeat-y;
+    background-color: black;
+    background-image: var(--wallpaper04);
+    background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
 
 
+}
+
+body#b2 {
+    /* 
+    background-color: black;
+    background-image: var(--wallpaper-aviao);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    */
+    background: black var(--wallpaper-aviao) center center no-repeat fixed;
+    background-size: cover;
 }
 
 header {
@@ -122,6 +138,38 @@ nav > a:hover {
     transition-duration: 0.2s;
 }
 
+aside {
+    border: 0.5px dashed black;
+    border-radius: 15px;
+    background-image: linear-gradient(to top, rgb(138, 138, 138), rgb(85, 85, 85));
+
+    min-width: auto;
+    max-width: 800px;
+
+    height: auto;
+
+    padding: 10px;
+    margin: auto;
+
+}
+
+aside > p {
+    color: white;
+    font-size: 0.9em;
+    text-align: center;
+    
+    line-height: 1.5em;
+    padding: 5px;
+    margin: 5px;
+    font-weight: 500;
+}
+
+aside > h1 {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 700;
+}
 
 div.quadrado {
     display: inline-block;
@@ -227,4 +275,30 @@ div.conteiner {
 div#c1 {
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+div.caixa {
+    border: 1px solid black;
+    border-radius: 10px;
+
+    background-image: var(--wallpaper-aviao);
+
+    min-width: 340px;
+    max-width: 990px;
+    height: 400px;
+
+    margin: auto;
+    padding: 20px;
+}
+
+div#ca1 {
+
+}
+
+div#ca2 {
+
+}
+
+div#ca3 {
+
 }
