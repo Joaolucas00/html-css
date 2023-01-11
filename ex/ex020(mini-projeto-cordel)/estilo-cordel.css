@@ -112,7 +112,7 @@ footer a:hover {
 
 main {
 
-    margin: 10px 10px 10px 10px;
+    margin: auto;
     padding: 10px 10px 10px 10px;
     min-width: 360px;
     max-width: 1380px;
