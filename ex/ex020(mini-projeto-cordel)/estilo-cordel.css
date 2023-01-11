@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Letters for Learners';
+    src: url('pacote-projeto/fonte/Letters\ for\ Learners.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KGPrimaryItalics';
+    src: url('pacote-projeto/fonte/KGPrimaryItalics.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Made Tommy';
+    src: url('pacote-projeto/fonte/MADE\ Tommy\ Soft\ Black\ PERSONAL\ USE.otf') format('opentype');
+}
+
+header > h1 {
+    font-family: 'Made Tommy', Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 4em;
+    color: white;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+header p {
+    font-family: 'Made Tommy', Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1.25em;
+    padding: 0px 10px 10px 10px;
+    margin: 0px 10px 10px 10px
+}
+header {
+    background-color: black;
+
+    max-width: 100%;
+
+    margin: 10px 10px 1px 10px;
+    padding: 10px 10px 0px 10p
+}
+
+header a {
+    color: white;
+    font-style: normal;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: rgba(255, 255, 255, 0.767);
+    font-style: normal;
+    text-decoration: underline;
+}
+
+main p {
+    font-family: 'KGPrimaryItalics', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 2.5em;
+}
+
+main {
+    width: 600px;
+}
+
+
+
