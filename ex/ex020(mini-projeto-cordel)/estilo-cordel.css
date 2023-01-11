@@ -15,6 +15,11 @@
     src: url('pacote-projeto/fonte/MADE\ Tommy\ Soft\ Black\ PERSONAL\ USE.otf') format('opentype');
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 html, body {
     min-height: 100vh;
 }
@@ -39,7 +44,7 @@ header p {
     text-align: center;
     font-size: 1.25em;
     padding: 0px 10px 10px 10px;
-    margin: 0px 10px 10px 10px
+    margin: 0px 10px 10px 10px;
     
 }
 header {
@@ -47,7 +52,7 @@ header {
 
     max-width: 100%;
 
-    margin: 10px 10px 10px 10px;
+    margin: 0px 0px 11px 0px;
     padding: 10px 10px 10px 10px;
 }
 
