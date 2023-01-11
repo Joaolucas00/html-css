@@ -8,6 +8,10 @@
     src: url(pacote-projeto/fontes/idroid.otf) format('opentype');
 }
 
+html, body {
+    min-height: 100vh;
+}
+
 body {
     background-image: linear-gradient(to right,  #6bfdc0,  #69c9a1);
 }

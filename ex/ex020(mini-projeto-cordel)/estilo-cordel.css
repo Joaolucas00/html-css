@@ -15,6 +15,10 @@
     src: url('pacote-projeto/fonte/MADE\ Tommy\ Soft\ Black\ PERSONAL\ USE.otf') format('opentype');
 }
 
+html, body {
+    min-height: 100vh;
+}
+
 :root {
     --joaninha-img: url('pacote-projeto/imagens/background001.jpg');
     --livro: url('pacote-projeto/imagens/background002.jpg');
