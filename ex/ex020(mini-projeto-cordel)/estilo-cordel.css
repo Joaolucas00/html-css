@@ -134,9 +134,9 @@ article.tem_img_fundo{
     background-color: rgba(0, 0, 0, 0.473);
     color: white;
 
-    top: 5%;
+    top: 10%;
     left: 2%;
-    transform: translate(0%, -5%)
+    transform: translate(0%, -5%);
 }
 
 
