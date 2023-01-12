@@ -137,11 +137,13 @@ article.tem_img_fundo{
     top: 5%;
     left: 2%;
     transform: translate(0%, -5%);
+
 }
 
 
 div#joaninha {
     position: relative;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.397);
 
     padding: 80px 10px 30px 10px;
     margin: auto;
@@ -158,6 +160,7 @@ div#joaninha {
 
 div#livro {
     position: relative;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.397);
 
     padding: 80px 10px 30px 10px;
     margin: auto;
