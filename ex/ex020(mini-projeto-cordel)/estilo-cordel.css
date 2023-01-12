@@ -151,7 +151,7 @@ div#joaninha {
     background-size: cover;
     background-attachment: fixed;
 
-    height: 690px;
+    height: 600px;
     min-width: 360px;
     max-width: 100%;
 }
@@ -167,7 +167,7 @@ div#livro {
     background-size: cover;
     background-attachment: fixed;
 
-    height: 690px;
+    height: 585px;
     min-width: 360px;
     max-width: 100%;
 }
