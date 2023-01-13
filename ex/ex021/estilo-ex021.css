@@ -18,6 +18,14 @@ body {
     background-attachment: scroll;
 }
 
+p {
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-indent: 50px;
+    line-height: 2em;
+    font-weight: 350;
+}
+
 header {
     margin: 0px;
     padding: 10px;
