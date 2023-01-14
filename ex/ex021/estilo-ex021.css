@@ -124,7 +124,16 @@ h2#colado {
     padding: 30px;
     margin: 20px;
     position: sticky;
-    top: 60px;
-    transform: translate(-169px, -7px);
+    top: 10%;
+    transform: translate(-30%, 60%)
 }
 
+#texto_que_rola {
+    background-color: lightgray;
+}
+
+div {
+    overflow-y: auto;
+    width: 1050px;
+    height: 500px;
+}
