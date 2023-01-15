@@ -21,6 +21,26 @@
         Existem sites que tem uma proteção para que o seu conteúdo não seja exibido dentro de um iframe.
     </p>
     <iframe src="https://www.youtube.com" frameborder="0"></iframe>
+
+    <p>
+        Raramente alguns navegadores não tem compatibilidade com  a tag iframe, mas caso realmente não tenha, dentro da tag você pode botar algo que vai ser exibido caso o iframe não funcione no seu navegador.
+    </p>
+    <p>
+        Esse "i" da tag iframe significa "inline", isso quer dizer que o tipo de box-level da tag iframe é inline.
+    </p>
+
+    <h2>Alguns parâmetros</h2>
+    <h3>Height e Width</h3>
+    
+    <p>
+        O tamanho padrão de um iframe é de 300x150px, tem parâmetro height para mudar a altura e width para mudar a largura. Caso você tenha uma configuração do CSS mudando a largura e altura do iframe e ao mesmo tempo os parâmetro height e width também, o que vai ficar valendo é o CSS.
+    </p>
+
+    <h3>Scolling</h3>
+    <p>Ele vai diat se vai ou não ter barra de rolagem. Scolling tem como valor auto(padrão), yes(cria barra de rolagem mesmo que o conteúdo ocupe totalmete o quadro), no(não cria barra de rolagem, pode ser que alguns navegadores não tenha compatibilidade).</p>
+    <h3>Frameboder</h3>
+    <p>Vai dizer se vai ou não ter borda. Aceita só os valores 0 ou 1 mas pode ser maior que 1 e mesmo assim a borda continua a mesma. 0 não tem borda, 1 tem borda. Você pode configurar a borda com CSS mesmo que tenha o frameborder no 0, alías iframe é uma caixa, uma caixa do tipo inline.</p>
+
     </main>
 </body>
 </html>
