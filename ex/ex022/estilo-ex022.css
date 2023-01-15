@@ -38,6 +38,7 @@ header {
 }
 
 header h1 {
+    color: white;
     font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
     font-size: 4em;
     text-indent: 1.5em;
