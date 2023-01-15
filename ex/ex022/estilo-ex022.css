@@ -71,3 +71,10 @@ main h1 {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     font-weight: 900;
 }
+
+iframe {
+    display: block;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
