@@ -40,12 +40,30 @@
     <p>Ele vai diat se vai ou não ter barra de rolagem. Scolling tem como valor auto(padrão), yes(cria barra de rolagem mesmo que o conteúdo ocupe totalmete o quadro), no(não cria barra de rolagem, pode ser que alguns navegadores não tenha compatibilidade).</p>
     <h3>Frameboder</h3>
     <p>Vai dizer se vai ou não ter borda. Aceita só os valores 0 ou 1 mas pode ser maior que 1 e mesmo assim a borda continua a mesma. 0 não tem borda, 1 tem borda. Você pode configurar a borda com CSS mesmo que tenha o frameborder no 0, alías iframe é uma caixa, uma caixa do tipo inline.</p>
+
     <h2>Conteúdo local no iframe</h2>
+
     <p>
         Alguns sites podem proibir a exibição do iframe, mas o seu não. Podemos também colocar conteúdo local no iframe.
     </p>
+
     <iframe src="pag02.html" frameborder="1"></iframe>
 
+    <h2>Navegando no iframe</h2>
+
+    <p>
+        Podemos navegar no iframe utilizando links. Como por exemplo:
+    </p>
+
+    <ul>
+        <li><a href="../ex017(mini-projeto)/android.html" target="frame">Mini projeto android</a></li>
+        <li><a href="../ex020(mini-projeto-cordel)/cordel.html" target="frame">Mini projeto cordel</a></li>
+        <li><a href="../ex019/index.html" target="frame">Ex019</a></li>
+    </ul>
+    <iframe src="" frameborder="1" id="tela" name="frame"></iframe>
+    <p>
+        Basta você usar o parâmetro "name" e colocar um nome para o iframe e no _target da tag a o nome que você colocou no iframe.
+    </p>
     </main>
 </body>
 </html>

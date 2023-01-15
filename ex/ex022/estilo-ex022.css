@@ -45,7 +45,7 @@ header h1 {
     margin: 10.5px;
     text-shadow: 7px 10px 14px rgba(0, 0, 0, 0.329);
 }
-p {
+p, ul {
     font-size: 1.5em;
     font-weight: 390;
     line-height: 2em;
@@ -77,4 +77,21 @@ iframe {
     width: 500px;
     height: 500px;
     margin: auto;
+}
+#tela {
+    display: block;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+
+a {
+    color: #5E9448;
+    text-decoration: none;
+    font-style: normal;
+}
+
+a:hover {
+    color: #84c56a;
+    text-decoration: underline;
 }
