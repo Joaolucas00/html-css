@@ -1,1 +1,53 @@
 @charset "UTF-8";
+
+:root {
+    --fundo-madeira: url('pacote-projeto/pacote-d013/imagens/fundo-madeira.jpg');
+    --celular: url('pacote-projeto/pacote-d013/imagens/frame-iphone.png');
+    --home: url('pacote-projeto/pacote-d013/imagens/tela-home.jpg');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    position: relative;
+    background-image: var(--fundo-madeira);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+#celular {
+    position: absolute;
+    background-image: var(--celular);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: scroll;
+    width: 311px;
+    height: 627px;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+#home {
+    position: absolute;
+    background-image: var(--home);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: scroll;
+    width: 284px;
+    height: 481px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+
+}
