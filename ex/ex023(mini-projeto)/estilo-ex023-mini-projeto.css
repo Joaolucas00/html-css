@@ -39,10 +39,12 @@ body {
 
 #home {
     position: absolute;
+    /*
     background-image: var(--home);
     background-repeat: no-repeat;
     background-size: contain;
     background-attachment: scroll;
+    */
     width: 272px;
     height: 484px;
     top: 50%;
