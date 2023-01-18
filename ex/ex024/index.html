@@ -18,5 +18,14 @@
         <p><label for="isobrenome">Sobrenome:</label><input type="text" name="sobrenome" id="isobrenome"></p>
         <input type="submit" value="Enviar">
     </form>
+
+    <form action="cadastro.php" method="post">
+        <p><label for="iusuario">Usuário:<input type="text" name="usuario" id="iusuario" required minlength="5" maxlength="15" size="15" placeholder="Nome do usuário"></label></p>
+        <p><label for="isenha">Senha: <input type="password" name="senha" id="isenha" required></label></p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
 </body>
 </html>
