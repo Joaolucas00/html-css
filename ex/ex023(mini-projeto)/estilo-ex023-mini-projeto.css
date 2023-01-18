@@ -55,10 +55,10 @@ body {
 }
 
 aside {
-    background-color: rgba(0, 0, 0, 0.158);
+    background-color: rgba(0, 0, 0, 0);
     position: absolute;
     height: 600px;
-    width: 200px;
+    max-width: 200px;
 
 
     top: 2%;
@@ -67,7 +67,17 @@ aside {
 
 img {
     display: block;
-    width: 60px;
+    max-width: 60px;
     height: 60px;
-    margin: auto;
+    margin: 10px;
+
+    border-radius: 50%;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+img:hover {
+    transition: 0.5s;
+    outline: 3.5px solid rgb(231, 231, 123);
+    border: 4px solid rgb(255, 221, 30);
 }
