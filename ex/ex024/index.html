@@ -20,22 +20,50 @@
     </form>
 
     <form action="cadastro.php" method="post">
-        <p>
-            <label for="ialuno">Aluno: <input type="text" name="aluno" id="ialuno" autocomplete="name" required></label>
-        </p>
-        <p>
-            <label for="imedia">Média: <input type="number" name="media" id="imedia" required min="0" max="10" step="0.5" value="5"></label>
-        </p>
-        <p>
-            <label for="imes">Período Letivo <input type="month" name="mes" id="imes"></label>
-        </p>
-        <p>
-            <label for="idia">Dia da prova: <input type="date" name="dia" id="idia"></label>
-        </p>
-        <p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
-        </p>
+        <fieldset>
+            <legend>Informações do aluno</legend>
+            <p>
+                <label for="ialuno">Aluno: <input type="text" name="aluno" id="ialuno" autocomplete="name" required></label>
+            </p>
+            <p>
+                <label for="imedia">Média: <input type="number" name="media" id="imedia" required min="0" max="10" step="0.5" value="5"></label>
+            </p>
+            <p>
+                <label for="imes">Período Letivo <input type="month" name="mes" id="imes"></label>
+            </p>
+            <p>
+                <label for="idia">Dia da prova: <input type="date" name="dia" id="idia"></label>
+            </p>
+            <p>
+                <label for="ihora">Horário da prova: <input type="time" name="hora" id="ihora"></label>
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset> <!-- pattern para fazer um RegEx-->
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            <p>
+                <label for="ifut">Futebol</label>
+                <input type="checkbox" name="fut" id="ifut">
+            </p>
+            <p>
+                <label for="ibas">Basquete</label>
+                <input type="checkbox" name="bas" id="ibas">
+            </p>
+             <p>
+                <label for="ivol">Volei</label>
+                <input type="checkbox" name="vol" id="ivol">
+            </p>
+             <p>
+                <label for="icor">Corrida</label>
+                <input type="checkbox" name="cor" id="icor">
+            </p>
+        </fieldset>
+        <fieldset>
+            
+        </fieldset>
     </form>
 </body>
 </html>
