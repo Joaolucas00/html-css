@@ -19,7 +19,7 @@
         <input type="submit" value="Enviar">
     </form>
 
-    <form action="cadastro.php" method="post">
+    <form action="cadastro.php" method="get" autocomplete="on">
         <fieldset>
             <legend>Informações do aluno</legend>
             <p>
@@ -62,7 +62,14 @@
             </p>
         </fieldset>
         <fieldset>
-            
+            <legend>Sexo</legend>
+
+            <label for="isexm">Masculino</label>
+            <input type="radio" name="sex" id="isexm" checked value="M">
+
+            <label for="isexf">Feminino</label>
+            <input type="radio" name="sex" id="isexf" value="F">
+
         </fieldset>
     </form>
 </body>
