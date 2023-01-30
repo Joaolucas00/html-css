@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/* Todas as demais midias */
+
+/* Typical Device Breakpoints
+    Celular:  – 320px — 480px
+    Tablet:  – 481px — 768px
+    Small screens, laptops:  – 769px — 1024px
+    Desktop, large screens: – 1025px — 1200px.
+    TV, Extra large screens: – 1201px, and more
+*/
+
+@media print {
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+}
+
+@media screen and (min-width: 910px) and (max-width: 1200px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+
+}
+
+
+
+
+
+
+
+
+/*
+@media screen and (max-width: 320px) {
+    
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    
+}
+*/
