@@ -1,9 +1,61 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
+* {
+    font-family: 'Open Sans';
+    font-weight: 500;
+    padding: 0px;
+    margin: 0px;
+}
 
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
 
+h1#principal {
+    font-weight: 590;
+    text-align: center;
 
+    font-size: 2.5em;
+}
 
+h1 {
+    padding: 10px;
+    margin: auto;
+}
 
+ul > li {
+    display: inline;
+    text-decoration: none;
+    font-style: normal;
 
+    margin: 10px;
+    padding: 10px;
+    background-color: lightgrey;
+}
 
+header {
+    background-color: rgba(110, 110, 110, 0.63);
+
+    padding: 30px 10px 10px 10px;
+}
+
+main {
+    width: 600px;
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid black;
+    background-color: rgb(233, 233, 233);
+}
+
+p {
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 1.9em;
+    line-break: auto;
+
+    padding: 10px;
+    margin: 5px;
+}
