@@ -29,6 +29,6 @@ Exercícios ex025
     <li><a href="https://joaolucas00.github.io/html-css/ex/ex025/mq01/">mq01</li>
    <li><a href="https://joaolucas00.github.io/html-css/ex/ex025/mq02/">mq02</li>
    <li><a href="https://joaolucas00.github.io/html-css/ex/ex025/mq03/">mq03</li>
-   <li><a href="https://joaolucas00.github.io/html-css/ex/ex024/mq04/">mq04</li>
+   <li><a href="https://joaolucas00.github.io/html-css/ex/ex025/mq04/">mq04</li>
 </ul>
 
