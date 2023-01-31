@@ -8,9 +8,8 @@
     margin: 0px;
 }
 
-html, body {
-    width: 100vw;
-    height: 100vh;
+body, html {
+    background-color: rgb(185, 185, 185);
 }
 
 h1#principal {
@@ -25,27 +24,32 @@ h1 {
     margin: auto;
 }
 
-ul > li {
-    display: inline;
+menu > ul > li > a {
+    display: block;
     text-decoration: none;
     font-style: normal;
-
-    margin: 10px;
+    text-align: center;
     padding: 10px;
     background-color: lightgrey;
+    list-style-type: none;
+    margin: 0px;
+    border-top: 1px solid black;
 }
+
 
 header {
     background-color: rgba(110, 110, 110, 0.63);
-
-    padding: 30px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    margin: auto;
 }
 
 main {
-    width: 600px;
+    min-width: 400px;
+    max-width: 600px;
     padding: 10px 10px 10px 10px;
     margin: auto;
     margin-top: 10px;
+    margin-bottom: 10px;
     border: 1px solid black;
     background-color: rgb(233, 233, 233);
 }
@@ -58,4 +62,16 @@ p {
 
     padding: 10px;
     margin: 5px;
+}
+
+a {
+    text-decoration: none;
+    font-style: normal;
+
+}
+
+a:hover {
+    color: blueviolet;
+    background-color: lightcoral;
+    text-decoration: underline;
 }
