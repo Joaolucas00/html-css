@@ -24,6 +24,10 @@ h1 {
     margin: auto;
 }
 
+menu {
+    display: none;
+}
+
 menu > ul > li > a {
     display: block;
     text-decoration: none;
@@ -74,4 +78,19 @@ a:hover {
     color: blueviolet;
     background-color: lightcoral;
     text-decoration: underline;
+}
+
+
+#menu {
+    display: block;
+    background-color: rgb(36, 36, 36);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 13.5px;
+}
+
+#menu:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
 }
