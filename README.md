@@ -19,4 +19,6 @@
 <a href="https://joaolucas00.github.io/html-css/ex/ex016/index.html">Executar ex016</a><br>
 <a href="https://joaolucas00.github.io/html-css/ex/ex017(mini-projeto)/android.html">Executar ex017(mini-projeto-android)</a><br>
 <a href="https://joaolucas00.github.io/html-css/ex/ex019/index.html">Executar ex019</a> <br>
-<a href="https://joaolucas00.github.io/html-css/ex/ex020(mini-projeto-cordel)/cordel.html">Executar ex020(mini-projeto-cordel)</a>
+<a href="https://joaolucas00.github.io/html-css/ex/ex020(mini-projeto-cordel)/cordel.html">Executar ex020(mini-projeto-cordel)</a> <br>
+<a href="https://joaolucas00.github.io/html-css/ex/ex021/">Executar ex021</a> <br>
+<a href="https://joaolucas00.github.io/html-css/ex/ex021/">Executar ex022</a> 
