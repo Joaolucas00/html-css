@@ -21,5 +21,7 @@
 <a href="https://joaolucas00.github.io/html-css/ex/ex019/index.html">Executar ex019</a> <br>
 <a href="https://joaolucas00.github.io/html-css/ex/ex020(mini-projeto-cordel)/cordel.html">Executar ex020(mini-projeto-cordel)</a> <br>
 <a href="https://joaolucas00.github.io/html-css/ex/ex021/">Executar ex021</a> <br>
-<a href="https://joaolucas00.github.io/html-css/ex/ex022/">Executar ex022</a>
-<a href="https://joaolucas00.github.io/html-css/ex/ex023(mini-projeto)/">Executar ex023</a> 
+<a href="https://joaolucas00.github.io/html-css/ex/ex022/">Executar ex022</a> <br>
+<a href="https://joaolucas00.github.io/html-css/ex/ex023(mini-projeto)/">Executar ex023</a> <br>
+<a href="https://joaolucas00.github.io/html-css/ex/ex024/">Executar ex024</a>
+
