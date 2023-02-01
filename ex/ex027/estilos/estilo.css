@@ -84,6 +84,7 @@ p {
 
 
 input {
+    background-color: #49a09d91;
     width: calc(100% - 50px);
     height: 80%;
     border: 0px;
