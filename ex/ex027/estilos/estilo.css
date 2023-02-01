@@ -92,7 +92,7 @@ input {
 }
 
 #log {
-    position: relative;
+    position: absolute;
     color: white;
     font-size: 30px;
     left: 0%;
@@ -100,7 +100,7 @@ input {
     transform: translate(0%, -20%);
 }
 #key {
-    position: relative;
+    position: absolute;
     color: white;
     font-size: 30px;
     left: 0%;
