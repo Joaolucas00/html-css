@@ -67,7 +67,7 @@ p {
     line-height: 1.7em;
 }
 
-#demail {
+.demail {
     position: relative;
     display: block;
     background-color: var(--lilas);
@@ -78,6 +78,7 @@ p {
     border-radius: 10px;
     border: 1px solid black;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.555);
+    margin-bottom: 10px;
 }
 
 
@@ -91,6 +92,14 @@ input {
 }
 
 #log {
+    position: relative;
+    color: white;
+    font-size: 30px;
+    left: 0%;
+    top: 0%;
+    transform: translate(0%, -20%);
+}
+#key {
     position: relative;
     color: white;
     font-size: 30px;
