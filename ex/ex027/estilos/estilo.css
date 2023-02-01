@@ -36,6 +36,7 @@ main, section {
 }
 
 div#foto {
+    display: block;
     background-color: aqua;
     background-image: url(../imagens/imagem-pattern.jpg);
     background-position: center center;
@@ -68,12 +69,13 @@ p {
     line-height: 1.7em;
 }
 
-.demail {
+.demail, form {
+    position: relative;
     display: block;
     background-color: var(--lilas);
     padding: 10px;
     margin: auto;
-    height: 14.6px;
+    height: 40.6px;
     width: 200px;
     border-radius: 10px;
     border: 1px solid black;
@@ -84,16 +86,23 @@ p {
 
 
 input {
+    position: absolute;
+    left: 17%;
+    top: 15%;
+
     height: 26px;
     border-radius: 10px;
-    margin: auto;
+    
 }
 
+
 #log {
+    display: none;
     color: white;
     font-size: 30px;
 }
 #key {
+    display: none;
     color: white;
     font-size: 30px;
 
