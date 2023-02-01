@@ -1,1 +1,68 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --verde: #49a09d;
+    --lilas: #5f2c82;
+}
+
+body, html {
+    position: relative;
+    background-color: var(--lilas);
+    width: 100vw;
+    height: 100vh;
+}
+
+main, section {
+    position: absolute;
+    background-color: white;
+    width: 350px;
+    padding: 0px;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    border-radius: 35px;
+    box-shadow: 0px 14px 30px rgba(0, 0, 0, 0.438);
+    border: 1px solid black;
+}
+
+div#foto {
+    background-color: aqua;
+    background-image: url(../imagens/imagem-pattern.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    height: 160px;
+    border-radius: 35px 35px 0px 0px;
+}
+
+div#formulario {
+    padding: 10px;
+    margin: 10px;
+}
+
+
+h1 {
+    font-size: 1.5em;
+    padding: 8px;
+    margin: 9px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 0.9em;
+    padding: 5px;
+    margin: 2px;
+    line-height: 1.7em;
+}
