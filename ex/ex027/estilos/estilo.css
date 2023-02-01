@@ -66,3 +66,35 @@ p {
     margin: 2px;
     line-height: 1.7em;
 }
+
+#demail {
+    position: relative;
+    display: block;
+    background-color: var(--lilas);
+    padding: 10px;
+    margin: auto;
+    height: 14.6px;
+    width: 200px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.555);
+}
+
+
+
+input {
+    height: 26px;
+    position: absolute;
+    left: 26%;
+    top: 8%;
+    border-radius: 10px;
+}
+
+#log {
+    position: relative;
+    color: white;
+    font-size: 30px;
+    left: 0%;
+    top: 0%;
+    transform: translate(0%, -20%);
+}
