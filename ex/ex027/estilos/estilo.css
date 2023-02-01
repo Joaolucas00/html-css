@@ -84,16 +84,26 @@ p {
 
 
 input {
-    
+    width: calc(100% - 50px);
+    height: 80%;
+    border: 0px;
+    padding: 4px;
+    transform: translateY(-10px);
+    border: 1px solid black;
+    border-radius: 15px;
 }
 
 
 #log {
     color: white;
     font-size: 30px;
+    width: 40px;
+    padding: 5px;
 }
 #key {
     color: white;
     font-size: 30px;
+    width: 40px;
+    padding: 5px;
 
 }
