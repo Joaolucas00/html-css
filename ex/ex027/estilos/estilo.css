@@ -68,7 +68,6 @@ p {
 }
 
 .demail {
-    position: relative;
     display: block;
     background-color: var(--lilas);
     padding: 10px;
@@ -85,25 +84,16 @@ p {
 
 input {
     height: 26px;
-    position: absolute;
-    left: 26%;
-    top: 8%;
     border-radius: 10px;
+    margin: auto;
 }
 
 #log {
-    position: absolute;
     color: white;
     font-size: 30px;
-    left: 0%;
-    top: 0%;
-    transform: translate(0%, -20%);
 }
 #key {
-    position: absolute;
     color: white;
     font-size: 30px;
-    left: 0%;
-    top: 0%;
-    transform: translate(0%, -20%);
+
 }
