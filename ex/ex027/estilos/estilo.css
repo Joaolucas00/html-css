@@ -69,14 +69,12 @@ p {
     line-height: 1.7em;
 }
 
-.demail, form {
-    position: relative;
+.demail {
     display: block;
     background-color: var(--lilas);
-    padding: 10px;
     margin: auto;
     height: 40.6px;
-    width: 210px;
+    width: 90%;
     border-radius: 10px;
     border: 1px solid black;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.555);
@@ -86,23 +84,15 @@ p {
 
 
 input {
-    position: absolute;
-    left: 17%;
-    top: 15%;
-
-    height: 26px;
-    border-radius: 10px;
     
 }
 
 
 #log {
-    display: none;
     color: white;
     font-size: 30px;
 }
 #key {
-    display: none;
     color: white;
     font-size: 30px;
 
