@@ -35,6 +35,10 @@ main, section {
     border: 1px solid black;
 }
 
+section {
+    overflow: hidden;
+}
+
 div#foto {
     display: block;
     background-color: aqua;
@@ -43,12 +47,11 @@ div#foto {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-
     height: 160px;
-    border-radius: 35px 35px 0px 0px;
 }
 
 div#formulario {
+    display: block;
     padding: 10px;
     margin: 10px;
 }
