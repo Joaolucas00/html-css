@@ -93,9 +93,9 @@ input {
     height: 80%;
     border: 0px;
     padding: 4px;
-    transform: translateY(-10px);
     border: 1px solid black;
     border-radius: 15px;
+    transform: translateY(-10px);
 }
 
 
