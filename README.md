@@ -33,3 +33,4 @@ Exercícios ex025
 </ul> <br>
 
 <a href="https://joaolucas00.github.io/html-css/ex/ex026/">Executar ex026</a>
+<a href="https://joaolucas00.github.io/html-css/ex/ex027/">Executar ex027</a>
