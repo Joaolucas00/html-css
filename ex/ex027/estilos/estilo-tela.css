@@ -13,7 +13,7 @@
 
     section {
         width: 90vw;
-        height: 70vh;
+        height: 95vh;
     }
 
     p {
@@ -45,7 +45,7 @@
 
     section {
         width: 95vw;
-        height: 70vh;
+        height: 90vh;
     }
 
     p {
@@ -79,7 +79,7 @@
 
     section {
         width: 95vw;
-        height: 70vh;    
+        height: 88vh;    
     }
 
     p {
@@ -113,6 +113,17 @@
         text-indent: 20px;
         transform: translateY(-7.5px);
     }
+
+    form > input[type=submit] { 
+        width: 50%;
+        transform: translateX(20%);
+    }
+
+    a {
+        width: 50%;
+        transform: translateX(-30%);
+    }
+
 }
 
 
