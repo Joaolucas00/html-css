@@ -32,5 +32,5 @@ Exercícios ex025
    <li><a href="https://joaolucas00.github.io/html-css/ex/ex025/mq04/">mq04</li>
 </ul> <br>
 
-<a href="https://joaolucas00.github.io/html-css/ex/ex026/">Executar ex026</a>
+<a href="https://joaolucas00.github.io/html-css/ex/ex026/">Executar ex026</a> <br>
 <a href="https://joaolucas00.github.io/html-css/ex/ex027/">Executar ex027</a>
