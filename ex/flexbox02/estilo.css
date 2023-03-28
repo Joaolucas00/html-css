@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+
+}
+
+html, body {
+    width: 98.9vw;
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    width: 100%;
+    height: 122px;
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+
+aside {
+    width: 20%;
+    height: 100%;
+    background-color: violet;
+    border: 1px solid black;
+}
+
+main {
+    width: 50%;
+    height: 500px;
+    background-color: #FA9182;
+}
