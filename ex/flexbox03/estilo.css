@@ -17,6 +17,7 @@ body, html {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-content: flex-start;
 
     gap: 50px;
     height: 100%;
