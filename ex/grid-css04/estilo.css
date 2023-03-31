@@ -49,3 +49,7 @@ body, html {
 #item-4 {
     align-self: center; /* posicionar na vertical */
 }
+
+#item-6 {
+    align-self: center;
+}
