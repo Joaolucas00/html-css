@@ -65,7 +65,9 @@ main, header, footer, aside {
 }
 
 header {
+    position: relative;
     grid-area: header;
+    overflow: hidden;
 }
 
 aside {
@@ -80,3 +82,17 @@ footer {
     grid-area: footer;
 }
 
+img {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    top: 0%;
+    left: 75.01%;
+}
+
+header > p {
+    width: calc(100% - 25%);
+    text-align: justify;
+    line-height: 1.28em;
+    text-indent: 2.5em;
+}
