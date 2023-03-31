@@ -16,10 +16,12 @@ body, html {
     padding: 20px;
     display: grid;
     grid-template-columns: 50px auto 10%;
+    grid-template-rows: 70% 30%;
+    gap: 5px;
+    height: 35vh;
 }
 
 .container div {
-    height: 40px;
     background-color: white;
     border: 1px solid blue;
 }
