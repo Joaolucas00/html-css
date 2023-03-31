@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    background-color: brown;
+    border: 5px solid red;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 50px auto 10%;
+}
+
+.container div {
+    height: 40px;
+    background-color: white;
+    border: 1px solid blue;
+}
