@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    background-color: brown;
+    border: 5px solid red;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 0px;
+    height: 50vh;
+    /* horizontal */
+    justify-content: center;
+    /* vertical */
+    align-items: center;
+
+}
+
+.container div {
+    padding: 20px;
+    background-color: white;
+    border: 1px solid blue;
+}
+

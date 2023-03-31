@@ -54,7 +54,7 @@ body, html {
     grid-template-areas:
         'header header header'
         'sidebar content content'
-        'footer footer footer';
+        'sidebar footer footer';
     height: 89vh;
 }
 
